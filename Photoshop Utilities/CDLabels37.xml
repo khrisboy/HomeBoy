@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Labels>
+	<Pattern Name="37 Images">
+		<Images>
+			<Image Order="1" Left="790" Top="265" Right="1000" Btm="405" Units="px"/>
+			<Image Order="2" Left="1000" Top="265" Right="1210" Btm="405" Units="px"/>
+			
+			<Image Order="3" Left="475" Top="405" Right="685" Btm="545" Units="px"/>
+			<Image Order="4" Left="685" Top="405" Right="895" Btm="545" Units="px"/>
+			<Image Order="5" Left="895" Top="405" Right="1105" Btm="545" Units="px"/>
+			<Image Order="6" Left="1105" Top="405" Right="1315" Btm="545" Units="px"/>
+			<Image Order="7" Left="1315" Top="405" Right="1525" Btm="545" Units="px"/>
+			
+			<Image Order="8" Left="370" Top="545" Right="580" Btm="685" Units="px"/>
+			<Image Order="9" Left="580" Top="545" Right="820" Btm="685" Units="px"/>
+			<Image Order="10" Left="790" Top="545" Right="1000" Btm="685" Units="px"/>
+			<Image Order="11" Left="1000" Top="545" Right="1210" Btm="685" Units="px"/>
+			<Image Order="12" Left="1210" Top="545" Right="1420" Btm="685" Units="px"/>
+			<Image Order="13" Left="1420" Top="545" Right="1630" Btm="685" Units="px"/>
+			
+			<Image Order="14" Left="300" Top="685" Right="510" Btm="825" Units="px"/>
+			<Image Order="15" Left="510" Top="685" Right="720" Btm="825" Units="px"/>
+			<Image Order="16" Left="1280" Top="685" Right="1490" Btm="825" Units="px"/>
+			<Image Order="17" Left="1490" Top="685" Right="1700" Btm="825" Units="px"/>
+			
+			<Image Order="18" Left="240" Top="825" Right="460" Btm="965" Units="px"/>
+			<Image Order="19" Left="460" Top="825" Right="670" Btm="965" Units="px"/>
+			<Image Order="20" Left="1330" Top="825" Right="1540" Btm="965" Units="px"/>
+			<Image Order="21" Left="1540" Top="825" Right="1750" Btm="965" Units="px"/>
+			
+			<Image Order="22" Left="240" Top="965" Right="460" Btm="1105" Units="px"/>
+			<Image Order="23" Left="460" Top="965" Right="670" Btm="1105" Units="px"/>
+			<Image Order="24" Left="1330" Top="965" Right="1540" Btm="1105" Units="px"/>
+			<Image Order="25" Left="1540" Top="965" Right="1750" Btm="1105" Units="px"/>
+			
+			<Image Order="26" Left="260" Top="1105" Right="470" Btm="1245" Units="px"/>
+			<Image Order="27" Left="470" Top="1105" Right="680" Btm="1245" Units="px"/>
+			<Image Order="28" Left="1310" Top="1105" Right="1520" Btm="1245" Units="px"/>
+			<Image Order="29" Left="1520" Top="1105" Right="1730" Btm="1245" Units="px"/>
+			
+			<Image Order="30" Left="340" Top="1245" Right="550" Btm="1385" Units="px"/>
+			<Image Order="31" Left="550" Top="1245" Right="760" Btm="1385" Units="px"/>
+			<Image Order="32" Left="1240" Top="1245" Right="1450" Btm="1385" Units="px"/>
+			<Image Order="33" Left="1450" Top="1245" Right="1660" Btm="1385" Units="px"/>
+			
+			<Image Order="34" Left="580" Top="1385" Right="790" Btm="1525" Units="px"/>
+			<Image Order="35" Left="790" Top="1385" Right="1000" Btm="1525" Units="px"/>
+			<Image Order="36" Left="1000" Top="1385" Right="1210" Btm="1525" Units="px"/>
+			<Image Order="37" Left="1210" Top="1385" Right="1430" Btm="1525" Units="px"/>
+		</Images>
+		<Label>
+			<Text Line="1" Name="Trip">
+				<Font Size="8" Style="Regular" AntiALias="Sharp">ComicSansMS</Font>
+				<Alignment>Center</Alignment>
+				<Position X="1000" Y="1625" Units="px"/>
+			</Text>
+			<Text Line="2" Name="Roll #">
+				<Font Size="8" Style="Regular" AntiALias="Sharp">ComicSansMS</Font>
+				<Alignment>Center</Alignment>
+				<Position X="1000" Y="1675" Units="px"/>
+			</Text>
+		</Label>
+	</Pattern>
+</Labels>

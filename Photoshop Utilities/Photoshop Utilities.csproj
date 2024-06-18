@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9D4763DA-25F6-4339-A584-669ECAFDBABE}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Photoshop Utilities</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PhotoshopUtilities</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>PhotoshopUtilities.UtilitiesForm</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug64|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug64|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug64|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug64\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\ColorProfileInformer\ColorProfileInformer.vcxproj">
+      <Project>{B3EE07EB-CB67-4BBF-9B2B-E1F82F1C3EBC}</Project>
+      <Name>ColorProfileInformer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyClasses\MyClasses.csproj">
+      <Name>MyClasses</Name>
+      <Project>{9026CA9C-FB1D-400D-B23D-9E57C27AF453}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\MyControls\MyControls.csproj">
+      <Name>MyControls</Name>
+      <Project>{C1838795-2A07-4425-AD21-F5429A9BA793}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\NPlot\lib\NPlot.csproj">
+      <Name>NPlot</Name>
+      <Project>{E6867FF5-74EC-4464-8958-D71CB46232F3}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Photoshop Support\Photoshop Support.csproj">
+      <Project>{cb80d034-8602-4fde-af02-b1a2975c17a5}</Project>
+      <Name>Photoshop Support</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Photoshopper\Photoshopper.csproj">
+      <Project>{7F629C4F-F35B-4D16-AAD5-6384125BD942}</Project>
+      <Name>Photoshopper</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\WebFramer Control Library\WebFramerCS2ControlLibrary.csproj">
+      <Project>{4420B4E5-9229-4C2E-B009-9F865EAE1047}</Project>
+      <Name>WebFramerCS2ControlLibrary</Name>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <Content Include="CDLabels36.xml" />
+    <Content Include="CDLabels37.xml" />
+    <Content Include="CDLabels38.xml" />
+    <Content Include="Photoshop.bmp" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CalendarPrep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompareFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompareFiles.Designer.cs">
+      <DependentUpon>CompareFiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactSheetMaker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateGuides.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateImageMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateMosaic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FamilyPhotos50th.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileChecker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileChecker.Designer.cs">
+      <DependentUpon>FileChecker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistogramPlotter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HistogramPlotter.Designer.cs">
+      <DependentUpon>HistogramPlotter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistogramPlotterData.cs" />
+    <Compile Include="IconExtractor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IconExtractor.Designer.cs">
+      <DependentUpon>IconExtractor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabelMaker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MotelArtwork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MotelArtwork.Designer.cs">
+      <DependentUpon>MotelArtwork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NikonScanProcessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintSizes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintSizes.Designer.cs">
+      <DependentUpon>PrintSizes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Processor.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResizeImagesProcessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResizeImagesProcessor.Designer.cs">
+      <DependentUpon>ResizeImagesProcessor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveTiffCompressed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveTiffCompressed.Designer.cs">
+      <DependentUpon>SaveTiffCompressed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TouchMe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TouchMe.Designer.cs">
+      <DependentUpon>TouchMe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebImagesProcessorI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="CalendarPrep.resx">
+      <DependentUpon>CalendarPrep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompareFiles.resx">
+      <DependentUpon>CompareFiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContactSheetMaker.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ContactSheetMaker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateGuides.resx">
+      <DependentUpon>CreateGuides.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateImageMap.resx">
+      <DependentUpon>CreateImageMap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateMosaic.resx">
+      <DependentUpon>CreateMosaic.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FamilyPhotos50th.resx">
+      <DependentUpon>FamilyPhotos50th.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileChecker.resx">
+      <DependentUpon>FileChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IconExtractor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>IconExtractor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabelMaker.resx">
+      <DependentUpon>LabelMaker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MotelArtwork.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MotelArtwork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NikonScanProcessor.resx">
+      <DependentUpon>NikonScanProcessor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintSizes.resx">
+      <DependentUpon>PrintSizes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveFrame.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RemoveFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResizeImagesProcessor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ResizeImagesProcessor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveTiffCompressed.resx">
+      <DependentUpon>SaveTiffCompressed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TouchMe.resx">
+      <DependentUpon>TouchMe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities.resx">
+      <DependentUpon>Utilities.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebImagesProcessorI.resx">
+      <DependentUpon>WebImagesProcessorI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Photoshop">
+      <Guid>{E891EE9A-D0AE-4CB4-8871-F92C0109F18E}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<panimaProject>
+	<projectType>7</projectType>
+	<adjustColors>1</adjustColors>
+	<autoCrop>1</autoCrop>
+	<imageBlending>0.25</imageBlending>
+	<autoStitchingOptions>
+		<resolution>1</resolution>
+		<minimumHorizontalOverlap>12</minimumHorizontalOverlap>
+		<maximumHorizontalOverlap>70</maximumHorizontalOverlap>
+		<minimumVerticalOverlap>12</minimumVerticalOverlap>
+		<maximumVerticalOverlap>70</maximumVerticalOverlap>
+		<horizontalPerpendicularOverlap>7</horizontalPerpendicularOverlap>
+		<verticalPerpendicularOverlap>7</verticalPerpendicularOverlap>
+		<rotationalSearch>0</rotationalSearch>
+	</autoStitchingOptions>
+	<panimaLens>
+		<name>50mm</name>
+		<mfov>39.6</mfov>
+	</panimaLens>
+</panimaProject>
